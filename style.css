@@ -21,3 +21,30 @@ div {
     padding: 20px;
     border-radius: 5px;
 }
+
+.small {
+    border: 2px solid #333;
+    border-radius: 5px;
+    color: green;
+    transition-property: none;
+    transition-duration: none;
+}
+
+.middle {
+    border: 8px solid #333;
+    border-radius: 5px;
+    color: green;
+    transition-property: none;
+    transition-duration: none;
+}
+
+.big {
+    border: 20px solid green;
+    border-radius: 10px;
+    text-shadow: 2px 2px green;
+    font-family: "Notable";
+    letter-spacing: 3px;
+    transition-property: color;
+    transition-duration: 3s;
+    color: gold;
+}
